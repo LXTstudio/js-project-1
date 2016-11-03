@@ -11,11 +11,6 @@ var i2 = 0
 var i3 = 0
 var i4 = 0
 var playerTurn = [player1, player2, player3, player4];
-  // p1 = 0;
-  // p2 = 1;
-  // p3 = 2;
-  // p4 = 3;
-  //for(var i = 0; i <playerTurn.length; i++){
 var p1 = [0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1]
 var p2 = [1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2]
 var p3 = [2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 3]
@@ -29,8 +24,6 @@ var win1 = 0;
 var win2 = 0;
 var win3 = 0;
 var win4 = 0;
-
-
 
 $('.piece').click(function(){
   if($(this).html()==""){
@@ -81,10 +74,6 @@ $('#restart').click(function(){
   i2 = 0;
   i3 = 0;
   i4 = 0;
-  // p1 = 3;
-  // p2 = 0;
-  // p3 = 1;
-  // p4 = 2;
 });
 
 function checkWin(){
@@ -324,13 +313,6 @@ function checkWin(){
     alert(player + ' won!');
   }
 
-  // {
-  // alert(player + ' won!')
-  //  count = 0
-  //  win1++
-  //  $('#win1').text(win1)
-  // }
-  
 //check if all the squares are taken
   else if (turn === 25) {
     alert("It's a draw!")
