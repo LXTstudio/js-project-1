@@ -2,7 +2,7 @@ h1 {
   margin-left:-15px;
 }
 .piece {
-  border: 5px solid whitesmoke;
+  border: 5px solid black;
   border-radius: 50px;
   margin:2px;
   width:100px;
@@ -36,7 +36,7 @@ h1 {
 }
 
 .won {
-  border-color: black;
+  border-color: goldenrod;
     -webkit-transition: border-color 2.5s ease;
   transition: border-color 2.5s ease;
 /*  background-color: goldenrod;
