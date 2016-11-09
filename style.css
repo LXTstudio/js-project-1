@@ -1,0 +1,46 @@
+h1 {
+  margin-left:-15px;
+}
+.piece {
+  border: 5px solid black;
+  border-radius: 50px;
+  margin:2px;
+  width:100px;
+  height:100px;
+  font-size:400%;
+  padding-top:5px;
+}
+
+.player1 {
+  background-color: red;
+}
+.player2 {
+  background-color: yellow;
+}
+.player3 {
+  background-color: green;
+}
+.player4 {
+  background-color: blue;
+}
+
+.board {
+  margin: 0 auto;
+  display: block;
+  width:500px;
+}
+
+#restart {
+  margin-top:20px;
+  margin-left:-18px;
+}
+
+.won {
+  border-color: goldenrod;
+    -webkit-transition: border-color 2.5s ease;
+  transition: border-color 2.5s ease;
+/*  background-color: goldenrod;
+    -webkit-transition: background-color 1s linear;
+  transition: background-color 1s linear;*/
+}
+
